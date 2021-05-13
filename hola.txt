@@ -18,4 +18,13 @@ git diff
 git commit -m "Nota de texto para saber qué versión es"
 7mo SUBIMOS AL REPO EN LA NUBE
 git push
-FIN! FELICITACIONES
+FIN FELICITACIONES
+git clone
+cd repo
+git status
+git add .
+git diff
+git commit -m "nota"
+git push
+ingresamos credenciales
+fin
