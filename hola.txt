@@ -1,1 +1,21 @@
 Hola mundo inicio de git
+Pasos para la creación y subida de archivos a github
+1ro CLONAMOS REPOSITORIO DESDE GIT CON EL ENALCE
+git clone https://enlace
+2do MOVERNOS A LA CARPETA DEL REPOSITORIO
+cd Repositorio/
+>>Agregaríamos todos los archivos que queremos subir al repo o las nuevas versiones.
+3ro HACER UN STATUS
+git status 
+>>nos mostrará los cambios hechos al repositorio original
+4to AÑADIMOS TODO AL REPOSITORIO
+git add . 
+git add archivonuevo.txt
+5to CHEQUEAMOS DIFERENCIAS DESPUÉS DEL add POR SI HICIMOS ALGÚN CAMBIO Y LO MUESTRA 
+git diff
+>>Nos muestra las diferencias hechas desde el git status
+6to HACEMOS EL COMMIT 
+git commit -m "Nota de texto para saber qué versión es"
+7mo SUBIMOS AL REPO EN LA NUBE
+git push
+FIN! FELICITACIONES
